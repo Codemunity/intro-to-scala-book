@@ -7,3 +7,11 @@ val depositBalance = initialBalance + 100
 val withdrawalBalance = depositBalance - 80
 
 val finalBalance = 0 + 100 - 80
+
+// This is a single-line comment
+
+/*
+
+  This is a multi-line comment
+
+ */
