@@ -1,5 +1,7 @@
+// Anonymous Function or Lambda
 () => {}
 
+// Named Function
 val sum = (x: Int, y: Int) => x + y
 sum(2, 3)
 
@@ -38,3 +40,16 @@ fizzbuzz(4)
 fizzbuzz(5)
 fizzbuzz(15)
 
+// Nested Function
+
+def factorial(n: Int): Int = {
+  def helper(current: Int, acc: Int = 1): Int = {
+    println(s"Current: $current - We have: $acc - We will have ${acc * current}")
+    if (current == 1) acc
+    else helper(current - 1, acc * current)
+  }
+
+  helper(n)
+}
+
+factorial(5)
