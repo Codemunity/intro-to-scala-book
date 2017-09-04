@@ -113,3 +113,15 @@ val people = names.zip(ages)
 
 // People over 40 years old
 people.filter(person => person._2 >= 40)
+
+// REDUCE
+
+val numbers = List(1,2,3,4,5,6,7,8,9)
+numbers.reduce( (a, b) => a + b )
+// With logs to see how reduce is applied
+numbers.reduce( (a, b) => {
+  println(s"$a - $b")
+  a + b
+})
+
+list.reduce( (a, b) => a + ", " + b)
