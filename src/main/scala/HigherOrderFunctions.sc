@@ -65,3 +65,51 @@ def filter(list: List[String], predicate: (String) => Boolean): List[String] = {
 
 filter(list, (string) => string.nonEmpty)
 filter(list, (string) => string != "world" && string.nonEmpty)
+
+
+/*
+
+  BUILT-IN HIGHER-ORDER FUNCTIONS
+
+ */
+
+// FILTER
+
+list.filter((string) => string.nonEmpty)
+list.filter((string) => string != "world" && string.nonEmpty)
+
+// MAP
+
+// We don't have wrap the `string` parameter in parenthesis,
+// because the anonymous function only has one parameter.
+val stringLengths = list.map(string => string.length)
+
+val defaultStrings = list.map(string => if (string.isEmpty) "default" else string)
+
+// FLATMAP
+
+val listOfLists: List[List[Int]] = List(List(1,2,3), List(4,5,6), List(7,8))
+
+// Approach with the nested `map`s and `flatten` function
+listOfLists.map(nestedList => nestedList.map(int => int * 2)).flatten
+
+// Using the `flatMap` function.
+listOfLists.flatMap(ints => ints.map(int => int * 2))
+
+// ZIP
+
+val names = List("Bob", "Fred", "Ted", "John")
+val ages = List(34, 47, 24, 63)
+
+// How to create a tuple
+val bob: (String, Int) = ("Bob", 34)
+// How to access Bob's name
+bob._1
+// How to access Bob's age
+bob._2
+
+// Zip the names with the ages
+val people = names.zip(ages)
+
+// People over 40 years old
+people.filter(person => person._2 >= 40)
