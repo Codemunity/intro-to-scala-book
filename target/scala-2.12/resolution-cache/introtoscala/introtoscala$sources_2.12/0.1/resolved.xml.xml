@@ -4,7 +4,7 @@
 		module="introtoscala$sources_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20170831221219"
+		publication="20171125151406"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

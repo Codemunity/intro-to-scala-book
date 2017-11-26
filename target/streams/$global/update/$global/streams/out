@@ -10,21 +10,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-lang#scala-library;2.12.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[info] Resolving org.scala-lang#scala-library;2.12.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] 		tried /Users/mlopezva/.ivy2/local/org.scala-lang/scala-library/2.12.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-library;2.12.3
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom
-[debug] 	public: found md file for org.scala-lang#scala-library;2.12.3
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom (2.12.3)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.3!scala-library.pom(pom.original) (363ms)
-[debug] 		tried /Users/mlopezva/.ivy2/local/org.scala-lang/scala-library/2.12.3/jars/scala-library.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.jar
-[debug] 	found org.scala-lang#scala-library;2.12.3 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.3
+[debug] 	found org.scala-lang#scala-library;2.12.3 in sbt-chain
 [debug] 	[2.12.3] org.scala-lang#scala-library;2.12.3
 [debug] == resolving dependencies introtoscala#introtoscala_2.12;0.1->org.scala-lang#scala-library;2.12.3 [compile->runtime]
 [debug] == resolving dependencies introtoscala#introtoscala_2.12;0.1->org.scala-lang#scala-library;2.12.3 [compile->compile]
@@ -130,21 +117,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-lang#scala-compiler;2.12.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
-[info] Resolving org.scala-lang#scala-compiler;2.12.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
-[debug] 		tried /Users/mlopezva/.ivy2/local/org.scala-lang/scala-compiler/2.12.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-compiler;2.12.3
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.pom
-[debug] 	public: found md file for org.scala-lang#scala-compiler;2.12.3
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.pom (2.12.3)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.3!scala-compiler.pom(pom.original) (297ms)
-[debug] 		tried /Users/mlopezva/.ivy2/local/org.scala-lang/scala-compiler/2.12.3/jars/scala-compiler.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.jar
-[debug] 	found org.scala-lang#scala-compiler;2.12.3 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.3
+[debug] 	found org.scala-lang#scala-compiler;2.12.3 in sbt-chain
 [debug] == resolving dependencies introtoscala#introtoscala_2.12;0.1->org.scala-lang#scala-compiler;2.12.3 [scala-tool->runtime]
 [debug] == resolving dependencies introtoscala#introtoscala_2.12;0.1->org.scala-lang#scala-compiler;2.12.3 [scala-tool->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -185,21 +159,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-lang#scala-reflect;2.12.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang#scala-reflect;2.12.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/mlopezva/.ivy2/local/org.scala-lang/scala-reflect/2.12.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.12.3
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.pom
-[debug] 	public: found md file for org.scala-lang#scala-reflect;2.12.3
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.pom (2.12.3)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.3!scala-reflect.pom(pom.original) (304ms)
-[debug] 		tried /Users/mlopezva/.ivy2/local/org.scala-lang/scala-reflect/2.12.3/jars/scala-reflect.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.jar
-[debug] 	found org.scala-lang#scala-reflect;2.12.3 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.3
+[debug] 	found org.scala-lang#scala-reflect;2.12.3 in sbt-chain
 [debug] 	[2.12.3] org.scala-lang#scala-reflect;2.12.3
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.3->org.scala-lang#scala-reflect;2.12.3 [compile->compile(*)]
@@ -300,27 +261,12 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.3!scala-library.jar (1902ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.3/scala-compiler-2.12.3.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar (2100ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar (1054ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar
-[debug] :: resolution report :: resolve 4096ms :: artifacts dl 5074ms
+[debug] :: resolution report :: resolve 37ms :: artifacts dl 1ms
 [debug] 	report for introtoscala#introtoscala_2.12;0.1 compile produced in /Users/mlopezva/Documents/scala-projects/intro-to-scala-book/target/scala-2.12/resolution-cache/reports/introtoscala-introtoscala_2.12-compile.xml
 [debug] 	report for introtoscala#introtoscala_2.12;0.1 runtime produced in /Users/mlopezva/Documents/scala-projects/intro-to-scala-book/target/scala-2.12/resolution-cache/reports/introtoscala-introtoscala_2.12-runtime.xml
 [debug] 	report for introtoscala#introtoscala_2.12;0.1 test produced in /Users/mlopezva/Documents/scala-projects/intro-to-scala-book/target/scala-2.12/resolution-cache/reports/introtoscala-introtoscala_2.12-test.xml
@@ -334,5 +280,5 @@
 [debug] 	report for introtoscala#introtoscala_2.12;0.1 docs produced in /Users/mlopezva/Documents/scala-projects/intro-to-scala-book/target/scala-2.12/resolution-cache/reports/introtoscala-introtoscala_2.12-docs.xml
 [debug] 	report for introtoscala#introtoscala_2.12;0.1 pom produced in /Users/mlopezva/Documents/scala-projects/intro-to-scala-book/target/scala-2.12/resolution-cache/reports/introtoscala-introtoscala_2.12-pom.xml
 [debug] 	report for introtoscala#introtoscala_2.12;0.1 scala-tool produced in /Users/mlopezva/Documents/scala-projects/intro-to-scala-book/target/scala-2.12/resolution-cache/reports/introtoscala-introtoscala_2.12-scala-tool.xml
-[debug] 	resolve done (4096ms resolve - 5074ms download)
+[debug] 	resolve done (37ms resolve - 1ms download)
 [info] Done updating.
